@@ -1,0 +1,1 @@
+Usage: drag and drop a .ckb file onto the executable to play, or pass the path as the first argument.
