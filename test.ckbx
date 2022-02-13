@@ -1,0 +1,8 @@
+<? xml version = "1.0" encoding = "utf-8" ?> 
+
+<bank name = "test" > 
+
+<sound name = "da2sound16_ak47" source = "da2sound16_ak47.wav" /> 
+<sound name = "da2sound16_basics" source = "da2sound16_basics.wav" />
+
+</bank> 
