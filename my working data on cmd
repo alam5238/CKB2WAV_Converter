@@ -1,0 +1,1849 @@
+Microsoft Windows [Version 10.0.21996.1]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Shuvo>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2A28-BF31
+
+ Directory of C:\Users\Shuvo
+
+02/07/2022  12:07 AM    <DIR>          .
+01/24/2022  01:56 AM    <DIR>          ..
+02/07/2022  12:32 AM    <DIR>          .android
+01/29/2022  02:42 AM                16 .emulator_console_auth_token
+01/24/2022  05:59 PM    <DIR>          .gradle
+01/24/2022  10:17 PM    <DIR>          .vscode
+02/07/2022  12:10 AM    <DIR>          AndroidStudioProjects
+01/23/2022  06:57 PM    <DIR>          Contacts
+02/13/2022  12:45 PM    <DIR>          Desktop
+02/13/2022  12:28 PM    <DIR>          Documents
+02/13/2022  12:27 PM    <DIR>          Downloads
+01/23/2022  06:57 PM    <DIR>          Favorites
+01/24/2022  02:11 AM    <DIR>          Intel
+01/23/2022  06:57 PM    <DIR>          Links
+01/23/2022  06:57 PM    <DIR>          Music
+01/24/2022  04:55 PM    <DIR>          OneDrive
+01/27/2022  12:20 AM    <DIR>          Pictures
+01/24/2022  02:09 AM    <DIR>          Roaming
+01/23/2022  06:57 PM    <DIR>          Saved Games
+01/24/2022  02:17 AM    <DIR>          Searches
+01/26/2022  11:59 PM    <DIR>          Videos
+               1 File(s)             16 bytes
+              20 Dir(s)  63,817,576,448 bytes free
+
+C:\Users\Shuvo>cd desktop
+
+C:\Users\Shuvo\Desktop>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2A28-BF31
+
+ Directory of C:\Users\Shuvo\Desktop
+
+02/13/2022  12:45 PM    <DIR>          .
+02/07/2022  12:07 AM    <DIR>          ..
+09/20/2021  08:03 AM           867,840 CKBtoWav.exe
+02/04/2022  09:12 AM        47,178,434 com.appsomniacs.da2.apk
+02/08/2022  04:32 AM    <DIR>          DB.Browser.for.SQLite-3.12.2-win64
+02/07/2022  01:49 AM    <DIR>          k
+02/13/2022  12:33 PM    <DIR>          Mini Mili
+02/13/2022  12:44 PM           211,344 output.ckb
+02/13/2022  12:45 PM           422,444 output.wav
+11/22/2021  01:21 AM            22,572 phppsinfo.php
+12/17/2019  06:22 AM    <DIR>          twocheckout
+02/03/2022  02:44 AM            35,398 twocheckout.zip
+02/03/2022  03:46 AM            54,274 twocheckoutreviver.zip
+09/04/2017  05:49 AM    <DIR>          twocheckoutreviver___WORKED
+               7 File(s)     48,792,306 bytes
+               7 Dir(s)  63,817,478,144 bytes free
+
+C:\Users\Shuvo\Desktop>cd mini mili
+
+C:\Users\Shuvo\Desktop\Mini Mili>cd sounds
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktools.exe
+'cktools.exe' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe
+
+Cricket Audio tool (version 1.6.5)
+
+
+Usage:
+
+ cktool.exe buildbank   [common_options] <infile> [<outfile>]
+   builds a bank file (.ckb) from an xml bank description file (.ckbx)
+
+ cktool.exe buildbank   [common_options] -single [sound_attributes] <infile> [<outfile>]
+   builds a bank file (.ckb) containing one sound
+
+ cktool.exe buildstream [common_options] [sound_attributes] <infile> [<outfile>]
+   builds a stream file (.cks)
+
+ cktool.exe info [common_options] <file>
+   prints info about a bank (.ckb) or stream (.cks) file
+
+ cktool.exe extract [common_options] <infile>
+   extracts sounds from bank (.ckb) or stream (.cks) into .wav files
+
+
+
+Available common options are:
+  -verbose
+
+Available sound attribute options are:
+  -format <format>
+  -volume <volume>
+  -pan <pan>
+  -loopStart <frame>
+  -loopEnd <frame>
+  -loopCount <count>
+
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cd..
+
+C:\Users\Shuvo\Desktop\Mini Mili>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2A28-BF31
+
+ Directory of C:\Users\Shuvo\Desktop\Mini Mili
+
+02/13/2022  12:33 PM    <DIR>          .
+02/13/2022  12:45 PM    <DIR>          ..
+06/16/2017  05:05 PM           649,216 CKBtoWAV.exe
+02/05/2017  02:41 PM         3,586,278 da2sound16.ckb
+02/13/2022  12:21 PM           314,924 da2sound16_K.wav.back
+02/13/2022  01:12 PM    <DIR>          Sounds
+02/13/2022  12:15 PM           513,194 tartary ay.wav
+07/28/2017  10:19 AM    <DIR>          x64
+               4 File(s)      5,063,612 bytes
+               4 Dir(s)  63,817,347,072 bytes free
+
+C:\Users\Shuvo\Desktop\Mini Mili>cd sounds
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe info da2sound16.ckb
+
+Cricket Audio tool (version 1.6.5)
+
+platforms: ios android osx win wp8 linux
+file type: 1
+
+bank name: da2sound
+
+  sound 0:
+      name:        ak47.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      10355
+      bytes:       20710
+      duration:    0.647187 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,10355
+      loop count:  0
+
+  sound 1:
+      name:        checkpoint.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      17067
+      bytes:       34134
+      duration:    1.066687 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,17067
+      loop count:  0
+
+  sound 2:
+      name:        clank.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      4088
+      bytes:       8176
+      duration:    0.255500 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,4088
+      loop count:  0
+
+  sound 3:
+      name:        coverme.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      10261
+      bytes:       20522
+      duration:    0.641312 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,10261
+      loop count:  0
+
+  sound 4:
+      name:        deagle.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      7540
+      bytes:       15080
+      duration:    0.471250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,7540
+      loop count:  0
+
+  sound 5:
+      name:        death1.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      5972
+      bytes:       11944
+      duration:    0.373250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,5972
+      loop count:  0
+
+  sound 6:
+      name:        death2.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      8538
+      bytes:       17076
+      duration:    0.533625 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,8538
+      loop count:  0
+
+  sound 7:
+      name:        death3.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      16000
+      bytes:       32000
+      duration:    1.000000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,16000
+      loop count:  0
+
+  sound 8:
+      name:        death4.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      9172
+      bytes:       18344
+      duration:    0.573250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,9172
+      loop count:  0
+
+  sound 9:
+      name:        death5.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      4339
+      bytes:       8678
+      duration:    0.271188 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,4339
+      loop count:  0
+
+  sound 10:
+      name:        death6.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      12380
+      bytes:       24760
+      duration:    0.773750 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,12380
+      loop count:  0
+
+  sound 11:
+      name:        death7.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      7255
+      bytes:       14510
+      duration:    0.453438 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,7255
+      loop count:  0
+
+  sound 12:
+      name:        death8.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      11155
+      bytes:       22310
+      duration:    0.697187 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,11155
+      loop count:  0
+
+  sound 13:
+      name:        death9.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      11763
+      bytes:       23526
+      duration:    0.735187 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,11763
+      loop count:  0
+
+  sound 14:
+      name:        dryfire.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      741
+      bytes:       1482
+      duration:    0.046312 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,741
+      loop count:  0
+
+  sound 15:
+      name:        energy.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      9005
+      bytes:       18010
+      duration:    0.562813 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,9005
+      loop count:  0
+
+  sound 16:
+      name:        explode.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      19675
+      bytes:       39350
+      duration:    1.229687 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,19675
+      loop count:  0
+
+  sound 17:
+      name:        flame.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      15255
+      bytes:       30510
+      duration:    0.953438 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,15255
+      loop count:  0
+
+  sound 18:
+      name:        gas.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      23856
+      bytes:       47712
+      duration:    1.491000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,23856
+      loop count:  0
+
+  sound 19:
+      name:        goodgame.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      10112
+      bytes:       20224
+      duration:    0.632000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,10112
+      loop count:  0
+
+  sound 20:
+      name:        gotme.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      18808
+      bytes:       37616
+      duration:    1.175500 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,18808
+      loop count:  0
+
+  sound 21:
+      name:        grenade1.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      3925
+      bytes:       7850
+      duration:    0.245312 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,3925
+      loop count:  0
+
+  sound 22:
+      name:        grenade2.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      3182
+      bytes:       6364
+      duration:    0.198875 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,3182
+      loop count:  0
+
+  sound 23:
+      name:        impact.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      2820
+      bytes:       5640
+      duration:    0.176250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,2820
+      loop count:  0
+
+  sound 24:
+      name:        impact2.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      8684
+      bytes:       17368
+      duration:    0.542750 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,8684
+      loop count:  0
+
+  sound 25:
+      name:        impact3.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      4773
+      bytes:       9546
+      duration:    0.298312 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,4773
+      loop count:  0
+
+  sound 26:
+      name:        impale.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      7055
+      bytes:       14110
+      duration:    0.440937 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,7055
+      loop count:  0
+
+  sound 27:
+      name:        impale2.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      4273
+      bytes:       8546
+      duration:    0.267062 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,4273
+      loop count:  0
+
+  sound 28:
+      name:        impalex.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      6340
+      bytes:       12680
+      duration:    0.396250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,6340
+      loop count:  0
+
+  sound 29:
+      name:        jet.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      17343
+      bytes:       34686
+      duration:    1.083938 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,17343
+      loop count:  0
+
+  sound 30:
+      name:        jump.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      10765
+      bytes:       21530
+      duration:    0.672813 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,10765
+      loop count:  0
+
+  sound 31:
+      name:        laser.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      4500
+      bytes:       9000
+      duration:    0.281250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,4500
+      loop count:  0
+
+  sound 32:
+      name:        m14.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      13409
+      bytes:       26818
+      duration:    0.838063 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,13409
+      loop count:  0
+
+  sound 33:
+      name:        m16.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      11074
+      bytes:       22148
+      duration:    0.692125 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,11074
+      loop count:  0
+
+  sound 34:
+      name:        m93ba.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      24052
+      bytes:       48104
+      duration:    1.503250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,24052
+      loop count:  0
+
+  sound 35:
+      name:        magnum.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      11613
+      bytes:       23226
+      duration:    0.725812 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,11613
+      loop count:  0
+
+  sound 36:
+      name:        moveout.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      9425
+      bytes:       18850
+      duration:    0.589063 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,9425
+      loop count:  0
+
+  sound 37:
+      name:        mp5.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      2184
+      bytes:       4368
+      duration:    0.136500 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,2184
+      loop count:  0
+
+  sound 38:
+      name:        niceshot.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      14441
+      bytes:       28882
+      duration:    0.902562 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,14441
+      loop count:  0
+
+  sound 39:
+      name:        no.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      22988
+      bytes:       45976
+      duration:    1.436750 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,22988
+      loop count:  0
+
+  sound 40:
+      name:        proxy.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      7242
+      bytes:       14484
+      duration:    0.452625 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,7242
+      loop count:  0
+
+  sound 41:
+      name:        readyup.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      11933
+      bytes:       23866
+      duration:    0.745812 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,11933
+      loop count:  0
+
+  sound 42:
+      name:        reload.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      4504
+      bytes:       9008
+      duration:    0.281500 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,4504
+      loop count:  0
+
+  sound 43:
+      name:        ricochet.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      7676
+      bytes:       15352
+      duration:    0.479750 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,7676
+      loop count:  0
+
+  sound 44:
+      name:        rocket.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      13836
+      bytes:       27672
+      duration:    0.864750 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,13836
+      loop count:  0
+
+  sound 45:
+      name:        saw.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      12722
+      bytes:       25444
+      duration:    0.795125 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,12722
+      loop count:  0
+
+  sound 46:
+      name:        shotgun.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      13299
+      bytes:       26598
+      duration:    0.831187 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,13299
+      loop count:  0
+
+  sound 47:
+      name:        silencer.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      3722
+      bytes:       7444
+      duration:    0.232625 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,3722
+      loop count:  0
+
+  sound 48:
+      name:        snatch-old1.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      2672
+      bytes:       5344
+      duration:    0.167000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,2672
+      loop count:  0
+
+  sound 49:
+      name:        snatch-old2.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      2672
+      bytes:       5344
+      duration:    0.167000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,2672
+      loop count:  0
+
+  sound 50:
+      name:        snatch.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      2672
+      bytes:       5344
+      duration:    0.167000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,2672
+      loop count:  0
+
+  sound 51:
+      name:        soar.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      6458
+      bytes:       12916
+      duration:    0.403625 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,6458
+      loop count:  0
+
+  sound 52:
+      name:        swipe-old1.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      2363
+      bytes:       4726
+      duration:    0.147687 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,2363
+      loop count:  0
+
+  sound 53:
+      name:        swipe.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      2363
+      bytes:       4726
+      duration:    0.147687 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,2363
+      loop count:  0
+
+  sound 54:
+      name:        throw.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      6674
+      bytes:       13348
+      duration:    0.417125 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,6674
+      loop count:  0
+
+  sound 55:
+      name:        tavor.wav
+      format:      0
+      channels:    1
+      sample rate: 22050
+      frames:      11238
+      bytes:       22476
+      duration:    0.509660 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,11238
+      loop count:  0
+
+  sound 56:
+      name:        uzi.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      5611
+      bytes:       11222
+      duration:    0.350688 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,5611
+      loop count:  0
+
+  sound 57:
+      name:        bringit.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      6622
+      bytes:       13244
+      duration:    0.413875 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,6622
+      loop count:  0
+
+  sound 58:
+      name:        cmonboy.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      12804
+      bytes:       25608
+      duration:    0.800250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,12804
+      loop count:  0
+
+  sound 59:
+      name:        control.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      43193
+      bytes:       86386
+      duration:    2.699563 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,43193
+      loop count:  0
+
+  sound 60:
+      name:        getsome.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      13822
+      bytes:       27644
+      duration:    0.863875 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,13822
+      loop count:  0
+
+  sound 61:
+      name:        lock.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      16225
+      bytes:       32450
+      duration:    1.014063 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,16225
+      loop count:  0
+
+  sound 62:
+      name:        piece.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      19193
+      bytes:       38386
+      duration:    1.199563 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,19193
+      loop count:  0
+
+  sound 63:
+      name:        ugly.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      33270
+      bytes:       66540
+      duration:    2.079375 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,33270
+      loop count:  0
+
+  sound 64:
+      name:        yeah.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      19193
+      bytes:       38386
+      duration:    1.199563 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,19193
+      loop count:  0
+
+  sound 65:
+      name:        awol.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      41279
+      bytes:       82558
+      duration:    2.579937 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,41279
+      loop count:  0
+
+  sound 66:
+      name:        back.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      14520
+      bytes:       29040
+      duration:    0.907500 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,14520
+      loop count:  0
+
+  sound 67:
+      name:        base.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      25489
+      bytes:       50978
+      duration:    1.593063 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,25489
+      loop count:  0
+
+  sound 68:
+      name:        basics.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      26344
+      bytes:       52688
+      duration:    1.646500 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,26344
+      loop count:  0
+
+  sound 69:
+      name:        bolt.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      39351
+      bytes:       78702
+      duration:    2.459438 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,39351
+      loop count:  0
+
+  sound 70:
+      name:        boots.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      30364
+      bytes:       60728
+      duration:    1.897750 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,30364
+      loop count:  0
+
+  sound 71:
+      name:        center.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      21495
+      bytes:       42990
+      duration:    1.343438 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,21495
+      loop count:  0
+
+  sound 72:
+      name:        dead.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      27956
+      bytes:       55912
+      duration:    1.747250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,27956
+      loop count:  0
+
+  sound 73:
+      name:        destroy.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      31651
+      bytes:       63302
+      duration:    1.978187 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,31651
+      loop count:  0
+
+  sound 74:
+      name:        disassemble.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      18112
+      bytes:       36224
+      duration:    1.132000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,18112
+      loop count:  0
+
+  sound 75:
+      name:        explosives.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      44421
+      bytes:       88842
+      duration:    2.776313 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,44421
+      loop count:  0
+
+  sound 76:
+      name:        future.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      22932
+      bytes:       45864
+      duration:    1.433250 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,22932
+      loop count:  0
+
+  sound 77:
+      name:        good.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      14112
+      bytes:       28224
+      duration:    0.882000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,14112
+      loop count:  0
+
+  sound 78:
+      name:        gotit.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      13979
+      bytes:       27958
+      duration:    0.873688 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,13979
+      loop count:  0
+
+  sound 79:
+      name:        green.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      27466
+      bytes:       54932
+      duration:    1.716625 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,27466
+      loop count:  0
+
+  sound 80:
+      name:        grenades.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      24687
+      bytes:       49374
+      duration:    1.542938 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,24687
+      loop count:  0
+
+  sound 81:
+      name:        hoorah.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      13094
+      bytes:       26188
+      duration:    0.818375 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,13094
+      loop count:  0
+
+  sound 82:
+      name:        jumps.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      46158
+      bytes:       92316
+      duration:    2.884875 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,46158
+      loop count:  0
+
+  sound 83:
+      name:        live.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      29819
+      bytes:       59638
+      duration:    1.863688 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,29819
+      loop count:  0
+
+  sound 84:
+      name:        look.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      32489
+      bytes:       64978
+      duration:    2.030562 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,32489
+      loop count:  0
+
+  sound 85:
+      name:        made.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      27368
+      bytes:       54736
+      duration:    1.710500 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,27368
+      loop count:  0
+
+  sound 86:
+      name:        malfunction.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      34599
+      bytes:       69198
+      duration:    2.162437 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,34599
+      loop count:  0
+
+  sound 87:
+      name:        mecha.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      19666
+      bytes:       39332
+      duration:    1.229125 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,19666
+      loop count:  0
+
+  sound 88:
+      name:        melee.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      19198
+      bytes:       38396
+      duration:    1.199875 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,19198
+      loop count:  0
+
+  sound 89:
+      name:        nuts.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      35088
+      bytes:       70176
+      duration:    2.193000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,35088
+      loop count:  0
+
+  sound 90:
+      name:        over.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      23737
+      bytes:       47474
+      duration:    1.483562 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,23737
+      loop count:  0
+
+  sound 91:
+      name:        perfect.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      25373
+      bytes:       50746
+      duration:    1.585812 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,25373
+      loop count:  0
+
+  sound 92:
+      name:        pickup.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      26305
+      bytes:       52610
+      duration:    1.644063 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,26305
+      loop count:  0
+
+  sound 93:
+      name:        pull.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      32000
+      bytes:       64000
+      duration:    2.000000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,32000
+      loop count:  0
+
+  sound 94:
+      name:        standdown.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      32754
+      bytes:       65508
+      duration:    2.047125 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,32754
+      loop count:  0
+
+  sound 95:
+      name:        switch.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      32299
+      bytes:       64598
+      duration:    2.018687 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,32299
+      loop count:  0
+
+  sound 96:
+      name:        targets.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      33184
+      bytes:       66368
+      duration:    2.074000 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,33184
+      loop count:  0
+
+  sound 97:
+      name:        thanks.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      10453
+      bytes:       20906
+      duration:    0.653313 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,10453
+      loop count:  0
+
+  sound 98:
+      name:        think.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      27019
+      bytes:       54038
+      duration:    1.688687 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,27019
+      loop count:  0
+
+  sound 99:
+      name:        thrust.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      33027
+      bytes:       66054
+      duration:    2.064188 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,33027
+      loop count:  0
+
+  sound 100:
+      name:        time.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      21623
+      bytes:       43246
+      duration:    1.351437 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,21623
+      loop count:  0
+
+  sound 101:
+      name:        welcome.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      32413
+      bytes:       64826
+      duration:    2.025812 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,32413
+      loop count:  0
+
+  sound 102:
+      name:        well.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      13026
+      bytes:       26052
+      duration:    0.814125 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,13026
+      loop count:  0
+
+  sound 103:
+      name:        weps.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      25465
+      bytes:       50930
+      duration:    1.591563 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,25465
+      loop count:  0
+
+  sound 104:
+      name:        will.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      16514
+      bytes:       33028
+      duration:    1.032125 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,16514
+      loop count:  0
+
+  sound 105:
+      name:        zoom.wav
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      24296
+      bytes:       48592
+      duration:    1.518500 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,24296
+      loop count:  0
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe extract da2sound16.ckb
+
+Cricket Audio tool (version 1.6.5)
+
+bank name: da2sound
+writing da2sound16_ak47.wav
+writing da2sound16_checkpoint.wav
+writing da2sound16_clank.wav
+writing da2sound16_coverme.wav
+writing da2sound16_deagle.wav
+writing da2sound16_death1.wav
+writing da2sound16_death2.wav
+writing da2sound16_death3.wav
+writing da2sound16_death4.wav
+writing da2sound16_death5.wav
+writing da2sound16_death6.wav
+writing da2sound16_death7.wav
+writing da2sound16_death8.wav
+writing da2sound16_death9.wav
+writing da2sound16_dryfire.wav
+writing da2sound16_energy.wav
+writing da2sound16_explode.wav
+writing da2sound16_flame.wav
+writing da2sound16_gas.wav
+writing da2sound16_goodgame.wav
+writing da2sound16_gotme.wav
+writing da2sound16_grenade1.wav
+writing da2sound16_grenade2.wav
+writing da2sound16_impact.wav
+writing da2sound16_impact2.wav
+writing da2sound16_impact3.wav
+writing da2sound16_impale.wav
+writing da2sound16_impale2.wav
+writing da2sound16_impalex.wav
+writing da2sound16_jet.wav
+writing da2sound16_jump.wav
+writing da2sound16_laser.wav
+writing da2sound16_m14.wav
+writing da2sound16_m16.wav
+writing da2sound16_m93ba.wav
+writing da2sound16_magnum.wav
+writing da2sound16_moveout.wav
+writing da2sound16_mp5.wav
+writing da2sound16_niceshot.wav
+writing da2sound16_no.wav
+writing da2sound16_proxy.wav
+writing da2sound16_readyup.wav
+writing da2sound16_reload.wav
+writing da2sound16_ricochet.wav
+writing da2sound16_rocket.wav
+writing da2sound16_saw.wav
+writing da2sound16_shotgun.wav
+writing da2sound16_silencer.wav
+writing da2sound16_snatch-old1.wav
+writing da2sound16_snatch-old2.wav
+writing da2sound16_snatch.wav
+writing da2sound16_soar.wav
+writing da2sound16_swipe-old1.wav
+writing da2sound16_swipe.wav
+writing da2sound16_throw.wav
+writing da2sound16_tavor.wav
+writing da2sound16_uzi.wav
+writing da2sound16_bringit.wav
+writing da2sound16_cmonboy.wav
+writing da2sound16_control.wav
+writing da2sound16_getsome.wav
+writing da2sound16_lock.wav
+writing da2sound16_piece.wav
+writing da2sound16_ugly.wav
+writing da2sound16_yeah.wav
+writing da2sound16_awol.wav
+writing da2sound16_back.wav
+writing da2sound16_base.wav
+writing da2sound16_basics.wav
+writing da2sound16_bolt.wav
+writing da2sound16_boots.wav
+writing da2sound16_center.wav
+writing da2sound16_dead.wav
+writing da2sound16_destroy.wav
+writing da2sound16_disassemble.wav
+writing da2sound16_explosives.wav
+writing da2sound16_future.wav
+writing da2sound16_good.wav
+writing da2sound16_gotit.wav
+writing da2sound16_green.wav
+writing da2sound16_grenades.wav
+writing da2sound16_hoorah.wav
+writing da2sound16_jumps.wav
+writing da2sound16_live.wav
+writing da2sound16_look.wav
+writing da2sound16_made.wav
+writing da2sound16_malfunction.wav
+writing da2sound16_mecha.wav
+writing da2sound16_melee.wav
+writing da2sound16_nuts.wav
+writing da2sound16_over.wav
+writing da2sound16_perfect.wav
+writing da2sound16_pickup.wav
+writing da2sound16_pull.wav
+writing da2sound16_standdown.wav
+writing da2sound16_switch.wav
+writing da2sound16_targets.wav
+writing da2sound16_thanks.wav
+writing da2sound16_think.wav
+writing da2sound16_thrust.wav
+writing da2sound16_time.wav
+writing da2sound16_welcome.wav
+writing da2sound16_well.wav
+writing da2sound16_weps.wav
+writing da2sound16_will.wav
+writing da2sound16_zoom.wav
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe test.ckbx uuuu.ckb
+
+Cricket Audio tool (version 1.6.5)
+
+
+Usage:
+
+ cktool.exe buildbank   [common_options] <infile> [<outfile>]
+   builds a bank file (.ckb) from an xml bank description file (.ckbx)
+
+ cktool.exe buildbank   [common_options] -single [sound_attributes] <infile> [<outfile>]
+   builds a bank file (.ckb) containing one sound
+
+ cktool.exe buildstream [common_options] [sound_attributes] <infile> [<outfile>]
+   builds a stream file (.cks)
+
+ cktool.exe info [common_options] <file>
+   prints info about a bank (.ckb) or stream (.cks) file
+
+ cktool.exe extract [common_options] <infile>
+   extracts sounds from bank (.ckb) or stream (.cks) into .wav files
+
+
+
+Available common options are:
+  -verbose
+
+Available sound attribute options are:
+  -format <format>
+  -volume <volume>
+  -pan <pan>
+  -loopStart <frame>
+  -loopEnd <frame>
+  -loopCount <count>
+
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe test.ckbx
+
+Cricket Audio tool (version 1.6.5)
+
+
+Usage:
+
+ cktool.exe buildbank   [common_options] <infile> [<outfile>]
+   builds a bank file (.ckb) from an xml bank description file (.ckbx)
+
+ cktool.exe buildbank   [common_options] -single [sound_attributes] <infile> [<outfile>]
+   builds a bank file (.ckb) containing one sound
+
+ cktool.exe buildstream [common_options] [sound_attributes] <infile> [<outfile>]
+   builds a stream file (.cks)
+
+ cktool.exe info [common_options] <file>
+   prints info about a bank (.ckb) or stream (.cks) file
+
+ cktool.exe extract [common_options] <infile>
+   extracts sounds from bank (.ckb) or stream (.cks) into .wav files
+
+
+
+Available common options are:
+  -verbose
+
+Available sound attribute options are:
+  -format <format>
+  -volume <volume>
+  -pan <pan>
+  -loopStart <frame>
+  -loopEnd <frame>
+  -loopCount <count>
+
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe test.ckbx
+
+Cricket Audio tool (version 1.6.5)
+
+
+Usage:
+
+ cktool.exe buildbank   [common_options] <infile> [<outfile>]
+   builds a bank file (.ckb) from an xml bank description file (.ckbx)
+
+ cktool.exe buildbank   [common_options] -single [sound_attributes] <infile> [<outfile>]
+   builds a bank file (.ckb) containing one sound
+
+ cktool.exe buildstream [common_options] [sound_attributes] <infile> [<outfile>]
+   builds a stream file (.cks)
+
+ cktool.exe info [common_options] <file>
+   prints info about a bank (.ckb) or stream (.cks) file
+
+ cktool.exe extract [common_options] <infile>
+   extracts sounds from bank (.ckb) or stream (.cks) into .wav files
+
+
+
+Available common options are:
+  -verbose
+
+Available sound attribute options are:
+  -format <format>
+  -volume <volume>
+  -pan <pan>
+  -loopStart <frame>
+  -loopEnd <frame>
+  -loopCount <count>
+
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe buildbank test.ckbx
+
+Cricket Audio tool (version 1.6.5)
+
+building bank from test.ckbx
+ERROR: test.ckbx: invalid xml file
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe buildbank test.ckbx
+
+Cricket Audio tool (version 1.6.5)
+
+building bank from test.ckbx
+ERROR: test.ckbx: invalid xml file
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe buildbank test.ckbx
+
+Cricket Audio tool (version 1.6.5)
+
+building bank from test.ckbx
+bank name: test
+adding sample 0
+  name: da2sound16_1.wav
+  source: da2sound16_1.wav
+  ERROR: da2sound16_1.wav: no such file
+adding sample 1
+  name: da2sound16_2.wav
+  source: da2sound16_2.wav
+  ERROR: da2sound16_2.wav: no such file
+
+writing to test.ckb
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe info test.ckb
+
+Cricket Audio tool (version 1.6.5)
+
+platforms: ios android osx win wp8 linux tvos
+file type: 1
+
+bank name: test
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe buildbank test.ckbx
+
+Cricket Audio tool (version 1.6.5)
+
+building bank from test.ckbx
+bank name: test
+adding sample 0
+  name: da2sound16_ak47
+  source: da2sound16_ak47
+  ERROR: da2sound16_ak47: no such file
+adding sample 1
+  name: da2sound16_basics
+  source: da2sound16_basics
+  ERROR: da2sound16_basics: no such file
+
+writing to test.ckb
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe info test.ckb
+
+Cricket Audio tool (version 1.6.5)
+
+platforms: ios android osx win wp8 linux tvos
+file type: 1
+
+bank name: test
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe buildbank test.ckbx
+
+Cricket Audio tool (version 1.6.5)
+
+building bank from test.ckbx
+bank name: test
+adding sample 0
+  name: da2sound16_ak47
+  source: da2sound16_ak47.wav
+  format: pcm16
+adding sample 1
+  name: da2sound16_basics
+  source: da2sound16_basics.wav
+  format: pcm16
+
+writing to test.ckb
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>cktool.exe info test.ckb
+
+Cricket Audio tool (version 1.6.5)
+
+platforms: ios android osx win wp8 linux tvos
+file type: 1
+
+bank name: test
+
+  sound 0:
+      name:        da2sound16_ak47
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      10355
+      bytes:       20710
+      duration:    0.647187 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,10355
+      loop count:  0
+
+  sound 1:
+      name:        da2sound16_basics
+      format:      0
+      channels:    1
+      sample rate: 16000
+      frames:      26344
+      bytes:       52688
+      duration:    1.646500 s
+      volume:      1.000000
+      pan:         0.000000
+      loop:        0,26344
+      loop count:  0
+
+C:\Users\Shuvo\Desktop\Mini Mili\Sounds>
